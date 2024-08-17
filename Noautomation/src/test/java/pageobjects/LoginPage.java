@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import utility.Base;
 
 public class LoginPage  extends Base{
-	
+	/* comment added */
 	public LoginPage  userLogin(String username, String password) {
 		mylib.type(mylib.locateElement("id", "username"), username);
 		mylib.type(mylib.locateElement("name","password"), password);
